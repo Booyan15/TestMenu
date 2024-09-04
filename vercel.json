@@ -1,0 +1,14 @@
+{
+    "routes:" [
+        {
+          "src": "/",
+          name: "Home",
+          "dest": "/",
+        },
+        {
+          path: "/product/:id",
+          name: "Products",
+          component: "/",
+        },
+    ]
+}
