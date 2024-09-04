@@ -1,14 +1,14 @@
 {
     "routes:" [
         {
-          "src": "/",
+          path: "/",
           name: "Home",
-          "dest": "/",
+          component: Home(),
         },
         {
           path: "/product/:id",
           name: "Products",
-          component: "/",
+          component: Products,
         },
     ]
 }
